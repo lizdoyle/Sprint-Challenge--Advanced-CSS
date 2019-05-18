@@ -1,1 +1,36 @@
 // Navigation code here
+ header {
+        display: flex;
+        flex-direction: column;
+        .center();
+        background-color: @nav-bg;
+        height: auto;
+        width: 100%;
+        border-bottom: 1px solid @nav-border;
+       
+    
+    // Spacewalkers Text
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 10px 0;
+        padding-top: 10px;
+
+    }
+    // Nav Buttons
+    nav {
+        display: flex;
+       .center();
+        font-family: @nav-font;
+        // padding-bottom: 20px;
+        
+        
+        a{
+            text-decoration: none;
+            color: @header-font-color; 
+            font-size: 1.8rem;
+            padding:1.8rem;
+            
+        }
+    }
+ }
