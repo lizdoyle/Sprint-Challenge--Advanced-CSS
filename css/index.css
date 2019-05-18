@@ -174,7 +174,7 @@ header h1 {
   font-size: 4rem;
   text-align: center;
   margin: 10px 0;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 header nav {
   display: flex;
@@ -197,6 +197,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.home .intro .intro-image {
+  width: 90%;
+}
+.home .intro .intro-image img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
