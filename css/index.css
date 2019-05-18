@@ -188,6 +188,15 @@ header nav a {
   font-size: 1.8rem;
   padding: 1.8rem;
 }
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+  header nav a {
+    font-size: 1.6rem;
+    padding: 1.4rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
