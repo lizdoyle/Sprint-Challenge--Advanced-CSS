@@ -167,8 +167,11 @@ header {
   align-content: center;
   background-color: #F6F6F6;
   height: auto;
-  width: 100%;
   border-bottom: 1px solid #F1F1F1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 header h1 {
   font-size: 4rem;
@@ -263,7 +266,7 @@ footer {
 }
 .home .walk .walk-text .btn {
   background-color: #22283A;
-  color: #F1F1F1;
+  color: #F6F6F6;
   padding: 5px 5px;
   width: 30%;
   font-size: 18px;

@@ -5,9 +5,16 @@
         .center();
         background-color: @nav-bg;
         height: auto;
-        width: 100%;
         border-bottom: 1px solid @nav-border;
        
+    //    Sticky Nav !! :) No JS NEEDED!
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+
+        
     
     // Spacewalkers Text
     h1{
@@ -36,7 +43,7 @@
  }
 @media @phone {
     header {
-
+        
 // Spacewalkers Text
         h1{
             font-size: 3.5rem;
