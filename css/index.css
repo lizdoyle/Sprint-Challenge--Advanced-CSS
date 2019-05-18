@@ -177,7 +177,7 @@ header h1 {
   font-size: 4rem;
   text-align: center;
   margin: 5px 0;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 header nav {
   display: flex;
@@ -189,7 +189,7 @@ header nav a {
   text-decoration: none;
   color: #23293B;
   font-size: 1.8rem;
-  padding: 1.8rem;
+  padding: 1.6rem;
 }
 @media (max-width: 500px) {
   header h1 {
@@ -218,6 +218,7 @@ footer {
 }
 .home .intro .intro-image {
   width: 90%;
+  margin-top: 110px;
 }
 .home .intro .intro-image img {
   border-radius: 5px;
