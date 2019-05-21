@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    An Adaptive Website is may have media queries like a response website, but it is still limited. A fully responsive website incorporates percentages, rems, and ems in order to ensure that all aspects of the content are adjusting between breakpoints. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile first will mean that a site is designed first from the mobile layout, and the tablet and desktop layout are designed last. this will have media queries of (min-width:XXXpx). It is recommended, however not always the actual usage case when working.
+
+    Desktop first uses (max-width:XXXpx) within media queries for determining breakpoints, and starts with the largest layout first, and mobile styles are usually last in design. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    The 62.5% adjusts the size of the rem so that 1rem is approximately 10 pixels, and subsequently, making it easier for design cohesiveness, especially when collaborating with a team. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing includes several features not available in vanilla CSS, that will allow the process of writing CSS to be much faster, and in the end, be less code. 
+
+    The code is nested, so it can prevent from rewriting of certain elements. Variables and mixins, also sweeten the deal, allowing for shorter names to be assigned to complicated values, or condense constantly rewritten pieces of code into one line of code! And the benefit is that nothing is lost, and is all written out as basic CSS at the end for you, saving time and maintaining cleaner code in the process.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite concept is variables. I like the easy reusage of naming something with a name of my choosing, with an @ symbol, that I can call based on my own conventions later in my code. So I can name complicated color values I don't want to remember. 
+
+    I also like, but  had a few troubles in this project with parametric mixins. I had a color value keep giving me an error, even though the mixin appeared to be written correctly. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

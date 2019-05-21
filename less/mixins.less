@@ -1,1 +1,35 @@
 // Mixins Here
+
+//alignment
+.center (){
+    justify-content: center;
+    align-content: center;
+}
+
+.flexalign (@just, @cont){
+    display: flex;
+    justify-content: @just;
+    align-content: @cont;
+}
+
+.radius(){
+    border-radius: 5px;
+}
+
+
+//button - parametric
+
+.button(@size, @bg, @text){
+    background-color: @bg;
+      color: @text;
+      padding: 5px 5px;
+      width: 30%;
+      font-size: @size;
+      .radius();
+      text-align: center;
+
+      &:hover{
+          background-color: @text;
+          color: @bg;
+      }
+}

@@ -1,1 +1,63 @@
 // Navigation code here
+ header {
+        display: flex;
+        flex-direction: column;
+        .center();
+        background: @nav-bg, 0.5; 
+
+        height: auto;
+        border-bottom: 1px solid @nav-border;
+       
+    //    Sticky Nav !! :) No JS NEEDED!
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+
+        
+    
+    // Spacewalkers Text
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        margin: 5px 0;
+        padding-top: 10px;
+
+    }
+    // Nav Buttons
+    nav {
+        display: flex;
+       .center();
+        font-family: @nav-font;
+        // padding-bottom: 20px;
+        
+        
+        a{
+            text-decoration: none;
+            color: @header-font-color; 
+            font-size: 1.8rem;
+            padding:1.6rem;
+            
+        }
+    }
+ }
+@media @phone {
+    header {
+        
+// Spacewalkers Text
+        h1{
+            font-size: 3.5rem;
+
+        }
+        // Nav Buttons
+        nav {
+            
+            a{
+                font-size: 1.6rem;
+                padding:1.4rem;
+                
+                }   
+            }
+        }
+}
